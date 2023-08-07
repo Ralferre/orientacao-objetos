@@ -1,2 +1,7 @@
-package calculos;public interface Classificavel {
+package calculos;
+
+public interface Classificavel {
+    int getClassificacao();
+
+    String pegaNome();
 }
